@@ -1,4 +1,4 @@
-package com.volkmar.kug
+package com.volkmar.dialogflow
 
 import org.springframework.context.annotation.Configuration
 import org.springframework.http.converter.HttpMessageConverter

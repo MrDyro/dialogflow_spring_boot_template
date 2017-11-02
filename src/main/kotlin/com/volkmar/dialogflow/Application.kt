@@ -1,4 +1,4 @@
-package com.volkmar.kug
+package com.volkmar.dialogflow
 
 import org.springframework.boot.SpringApplication
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration
