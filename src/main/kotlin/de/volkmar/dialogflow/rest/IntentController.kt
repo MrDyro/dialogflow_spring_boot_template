@@ -18,9 +18,9 @@ class IntentController {
         // TODO: Add your stuff here
 
         return ResponseEntity.ok(DialogflowResponse(speech = "Hallo World",
-                                                                                 displayText = "Hallo World",
-                                                                                 data = emptyMap(),
-                                                                                 contextOut = emptyList(),
-                                                                                 source = "Service"))
+                                                    displayText = "Hallo World",
+                                                    data = emptyMap(),
+                                                    contextOut = emptyList(),
+                                                    source = "Service"))
     }
 }
