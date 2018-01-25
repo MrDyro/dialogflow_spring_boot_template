@@ -15,8 +15,6 @@ class IntentController {
     fun processIntent(@RequestBody dialogflowRequest: DialogflowRequest,
                       request: HttpServletRequest): ResponseEntity<Any> {
 
-        print(dialogflowRequest)
-
         // TODO: Add your stuff here
 
         return ResponseEntity.ok(DialogflowResponse(speech = "Hallo World",
