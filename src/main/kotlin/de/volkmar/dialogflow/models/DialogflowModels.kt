@@ -1,4 +1,4 @@
-package com.volkmar.dialogflow.models
+package de.volkmar.dialogflow.models
 
 data class DialogflowRequest(val id: String,
                              val timestamp: String,

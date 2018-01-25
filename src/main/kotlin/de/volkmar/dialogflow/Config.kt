@@ -1,4 +1,4 @@
-package com.volkmar.dialogflow
+package de.volkmar.dialogflow
 
 import org.springframework.context.annotation.Configuration
 import org.springframework.http.converter.HttpMessageConverter
@@ -8,7 +8,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
 
 @Configuration
 @EnableWebMvc
-open class Config : WebMvcConfigurerAdapter() {
+class Config : WebMvcConfigurerAdapter() {
     override fun configureMessageConverters(converters: MutableList<HttpMessageConverter<*>>?) {
         converters?.add(GsonHttpMessageConverter())
         super.configureMessageConverters(converters)
