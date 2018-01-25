@@ -12,8 +12,10 @@ import javax.servlet.http.HttpServletRequest
 @RestController
 class IntentController {
     @RequestMapping(path = ["/intent"], method = [(RequestMethod.POST)])
-    fun processIntent(@RequestBody apiAiRequest: DialogflowRequest,
+    fun processIntent(@RequestBody dialogflowRequest: DialogflowRequest,
                       request: HttpServletRequest): ResponseEntity<Any> {
+
+        print(dialogflowRequest)
 
         // TODO: Add your stuff here
 
